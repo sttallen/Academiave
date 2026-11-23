@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-lime-neon: #C6FF00;
+  --color-lime-bright: #D2FF1E;
+  --color-obsidian: #0A0A0C;
+  --color-charcoal: #121215;
+  --color-graphite: #18181C;
+  --color-graphite-border: #26262C;
+}
+
+@layer base {
+  html {
+    background-color: #0A0A0C;
+    color: #FFFFFF;
+    font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    overflow-x: hidden;
+    background-color: #0A0A0C;
+  }
+
+  :focus-visible {
+    outline: 2px solid #C6FF00;
+    outline-offset: 2px;
+  }
+}
+
+/* Custom subtle lime glow utilities */
+.lime-btn-glow:hover {
+  box-shadow: 0 0 28px -4px rgba(198, 255, 0, 0.45);
+}
+
+.card-lime-hover:hover {
+  border-color: rgba(198, 255, 0, 0.45);
+  box-shadow: 0 18px 40px -16px rgba(198, 255, 0, 0.16);
+}

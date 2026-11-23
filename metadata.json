@@ -1,0 +1,6 @@
+{
+  "name": "fitzone",
+  "description": "Landing page da academia e estúdio fitness FitZone. Treinamento de força, cardio, boxe, yoga e acompanhamento personalizado em ambiente de alta performance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
